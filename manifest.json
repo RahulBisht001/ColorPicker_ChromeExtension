@@ -1,0 +1,22 @@
+{
+    "name": "Color picker",
+    "description": "An easy-to-use eyedropper tool that automatically copies the Hex Code of the desired color and make developers life easy",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/img/picker_16.png",
+        "32": "/img/picker_32.png",
+        "48": "/img/picker_48.png"
+    }
+}
