@@ -3,8 +3,7 @@ ____________________
 
 ## what is manifest.json file 
 ___________________
-|
----> It is a text file in JSON (JavaScript Object Notation) format that contains 
+  It is a text file in JSON (JavaScript Object Notation) format that contains 
 certain details about the extension you will be developing. Google uses this file 
 to acquire details about your extension when you will publish it. There are required,
 recommended and optional fields.
@@ -12,12 +11,11 @@ recommended and optional fields.
 It is basically the meta data of your extension
 
 
-
 ## What is the EyeDropper API?
 _____________________________
-|
---> Many creative applications allow users to pick colors from parts
+     Many creative applications allow users to pick colors from parts
 of the app window or even from the entire screen, typically using an eyedropper metaphor.
+
 
 ### Using the API
 To use the API, create an EyeDropper object and then call its open() method.
@@ -26,10 +24,11 @@ To use the API, create an EyeDropper object and then call its open() method.
 
 const eyeDropper = new EyeDropper();
 ```
-The open() method returns a promise that resolves after the user selects a pixel on the screen, and the resolved value provides access to the pixel's color in sRGBHex format (#RRGGBB). The promise is rejected if the user leaves the eyedropper mode by pressing the esc key.
+The open() method returns a promise that resolves after the user selects a pixel on the screen, and the
+resolved value provides access to the pixel's color in sRGBHex format (#RRGGBB). The promise is rejected 
+if the user leaves the eyedropper mode by pressing the esc key.
 
 ```JavaScript
-
 try {
   const result = await eyeDropper.open();
   // The user selected a pixel, here is its color:
@@ -39,8 +38,9 @@ try {
 }
 ```
 
-    * Resources : 1.  https://tinyl.io/801k
-                  2.  https://tinyl.io/801n
+* Resources : 1.  https://tinyl.io/801k
+
+              2.  https://tinyl.io/801n
 
 
 ## Navigator API
@@ -49,14 +49,14 @@ It allows scripts to query it and to register themselves to carry on some activi
 
 A Navigator object can be retrieved using the read-only window.navigator property.
 
-    * Resources : https://tinyl.io/802K
+* Resources : https://tinyl.io/802K
 
 
 
 * ### invertColor function
 __________________________
-|
--->  Source : Stackoverflow
+
+Source : Stackoverflow
 
 Simple One ✅
 
