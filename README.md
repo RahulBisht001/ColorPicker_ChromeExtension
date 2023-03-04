@@ -173,4 +173,4 @@ The function works as follows:
 
 Developer : RahulB 
 
-Contact : [Mail](rahulbishtrb1012@gamil.com)
+Contact : rahulbishtrb1012@gamil.com
