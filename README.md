@@ -13,7 +13,7 @@ It is basically the meta data of your extension
 
 ## What is the EyeDropper API?
 _____________________________
-     Many creative applications allow users to pick colors from parts
+Many creative applications allow users to pick colors from parts
 of the app window or even from the entire screen, typically using an eyedropper metaphor.
 
 
@@ -38,9 +38,9 @@ try {
 }
 ```
 
-* Resources : 1.  https://tinyl.io/801k
-
-              2.  https://tinyl.io/801n
+* Resources :
+ 1.  [Chrome Docs](https://tinyl.io/801k)
+ 2.  [MDN Reference](https://tinyl.io/801n)
 
 
 ## Navigator API
@@ -49,11 +49,13 @@ It allows scripts to query it and to register themselves to carry on some activi
 
 A Navigator object can be retrieved using the read-only window.navigator property.
 
-* Resources : https://tinyl.io/802K
+* Resources : [MDN Reference](https://tinyl.io/802K)
 
 
 
-* ### invertColor function
+
+
+* ### invertColor() function (popup.js)
 __________________________
 
 Source : Stackoverflow
@@ -88,7 +90,8 @@ function padZero(str, len) {
 
 ```
 
-Advance Version 😎
+### Advance Version 😎
+
 This has a `bw` option that will decide whether to invert to black or white; 
 so you'll get more contrast which is generally better for the human eye.
 
