@@ -170,6 +170,7 @@ The function works as follows:
 
 
 
+<img src="https://github.com/RahulBisht001/ColorPicker_ChromeExtension/blob/main/ScreenShots/Extension.png" alt="Extension" width="900" height="400">
 
 
 
