@@ -1,5 +1,7 @@
 # <h1 align ="center">![logo](https://github.com/RahulBisht001/Color_Picker_ChromeExtension/blob/main/ColorPicker_Logo.png)Color Picker <h1/>
 
+![logo](https://github.com/RahulBisht001/ColorPicker_ChromeExtension/blob/main/Chrome%20Extension%20Wallpaper.jpg)
+
 <h2>Color Picker</h2>
 
 
