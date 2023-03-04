@@ -22,15 +22,13 @@ of the app window or even from the entire screen, typically using an eyedropper 
 ### Using the API
 To use the API, create an EyeDropper object and then call its open() method.
 
-```
-JavaScript
+```JavaScript
 
 const eyeDropper = new EyeDropper();
 ```
 The open() method returns a promise that resolves after the user selects a pixel on the screen, and the resolved value provides access to the pixel's color in sRGBHex format (#RRGGBB). The promise is rejected if the user leaves the eyedropper mode by pressing the esc key.
 
-```
-JavaScript
+```JavaScript
 
 try {
   const result = await eyeDropper.open();
