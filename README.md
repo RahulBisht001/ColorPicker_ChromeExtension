@@ -169,9 +169,11 @@ The function works as follows:
 3. `(zeros + str).slice(-len)` concatenates `zeros` and `str`, and then extracts the last `len` characters of the resulting string. If `str` is shorter than `len`, the remaining characters are filled with zeros from `zeros`. If `str` is longer than `len`, the function returns the last `len` characters of `str`. For example, if `str` is `"7"` and `len` is 5, then the function would return "00007"`. If `str` is `"123456"` and `len` is 3, then the function would return "456"`.
 
 
+_____________________________________________________________________________________________
 
-<img src="https://github.com/RahulBisht001/ColorPicker_ChromeExtension/blob/main/ScreenShots/Extension.png" alt="Extension" width="900" height="400">
-
+* As I don't have a Chome Developer Account so i can't publish it on Chrome web Store. 
+  Here are Some Screenshot of the Extesnsion
+[ScreenShots of the Extension's Woring](https://github.com/RahulBisht001/ColorPicker_ChromeExtension/tree/main/ScreenShots)
 
 
 Developer : RahulB 
