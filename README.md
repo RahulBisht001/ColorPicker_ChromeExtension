@@ -1,5 +1,8 @@
-# [!logo](https://github.com/RahulBisht001/Color_Picker_ChromeExtension/blob/main/ColorPicker_Logo.png)Color Picker
-____________________
+# <h1 align ="center">![logo](https://github.com/RahulBisht001/Color_Picker_ChromeExtension/blob/main/ColorPicker_Logo.png)Color Picker <h1/>
+
+<h2>Color Picker</h2>
+
+
 
 ## what is manifest.json file 
 ___________________
@@ -9,6 +12,7 @@ to acquire details about your extension when you will publish it. There are requ
 recommended and optional fields.
 
 It is basically the meta data of your extension
+
 
 
 ## What is the EyeDropper API?
@@ -161,3 +165,12 @@ The function works as follows:
 
 
 3. `(zeros + str).slice(-len)` concatenates `zeros` and `str`, and then extracts the last `len` characters of the resulting string. If `str` is shorter than `len`, the remaining characters are filled with zeros from `zeros`. If `str` is longer than `len`, the function returns the last `len` characters of `str`. For example, if `str` is `"7"` and `len` is 5, then the function would return "00007"`. If `str` is `"123456"` and `len` is 3, then the function would return "456"`.
+
+
+
+
+
+
+Developer : RahulB 
+
+Contact : [Mail](rahulbishtrb1012@gamil.com)
