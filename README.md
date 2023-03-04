@@ -1,4 +1,4 @@
-# Color Picker
+# [!logo](https://github.com/RahulBisht001/Color_Picker_ChromeExtension/blob/main/ColorPicker_Logo.png)Color Picker
 ____________________
 
 ## what is manifest.json file 
