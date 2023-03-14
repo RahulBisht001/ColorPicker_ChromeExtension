@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f2f9;
+}
+
+.wrapper {
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  height: 150px;
+}
+
+.changeColorBtn {
+  margin: 15px;
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 5px;
+  background-color: #f5ce34;
+  cursor: pointer;
+  box-shadow: 0 0 10px #797979;
+}
+.changeColorBtn:hover {
+  background-color: #f5c504;
+}
+
+.color-grid {
+  display: inline-block;
+  width: 200px;
+  height: 45px;
+}
+
+.color-value {
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.copyText {
+  padding-top: 10px;
+}/*# sourceMappingURL=popus.css.map */
